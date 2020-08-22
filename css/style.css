@@ -149,6 +149,9 @@ body {
     width: 90%;
     border-radius: 100px;
     transition: all .2s; }
+    @media only screen and (max-width: 31.25em) {
+      .search__input {
+        margin-right: 0; } }
     .search__input:focus {
       outline: none;
       background-color: var(--color-light-gray-4);
